@@ -74,4 +74,16 @@ while True :
         break
 
 
+# release the webcam and destroy all active windows
+cap.release()
+cv2.destroyAllWindows() 
+
+
+
+
+
+
+
+
+
 
